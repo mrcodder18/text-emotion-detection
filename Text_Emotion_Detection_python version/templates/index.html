@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Emotion Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<nav>
+    <div class="brand">🧠 EmotionAI</div>
+    <div class="nav-links">
+        <a href="/">Detector</a>
+        <a href="/dashboard">Dashboard</a>
+    </div>
+</nav>
+
+<main class="container">
+    <section class="hero">
+        <span class="badge">NLP + Machine Learning</span>
+        <h1>Text-Based Emotion Detection</h1>
+        <p>Enter a sentence or paragraph and discover the emotion expressed in the text.</p>
+    </section>
+
+    <section class="card detector">
+        <div class="card-title">
+            <h2>Analyze Text</h2>
+            <span id="charCount">0 / 2000</span>
+        </div>
+
+        <textarea id="textInput" maxlength="2000"
+            placeholder="Example: I am really excited because I got selected for my dream job!"></textarea>
+
+        <div class="examples">
+            <button onclick="setExample('I am very happy because I achieved my goal today!')">😊 Joy</button>
+            <button onclick="setExample('I am worried about the result of my examination.')">😨 Fear</button>
+            <button onclick="setExample('This unfair behavior makes me extremely angry.')">😡 Anger</button>
+        </div>
+
+        <button class="primary" id="analyzeBtn" onclick="analyzeText()">Detect Emotion</button>
+        <p id="error" class="error"></p>
+
+        <div id="result" class="result hidden">
+            <div class="result-emoji" id="resultEmoji">😊</div>
+            <div>
+                <p class="result-label">Detected Emotion</p>
+                <h2 id="resultEmotion">Joy</h2>
+                <div class="confidence-row">
+                    <span>Confidence</span>
+                    <strong id="confidenceText">0%</strong>
+                </div>
+                <div class="progress"><div id="confidenceBar"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="emotion-grid">
+        <div>😊 <span>Joy</span></div>
+        <div>😢 <span>Sadness</span></div>
+        <div>😡 <span>Anger</span></div>
+        <div>😨 <span>Fear</span></div>
+        <div>😲 <span>Surprise</span></div>
+        <div>❤️ <span>Love</span></div>
+        <div>😐 <span>Neutral</span></div>
+    </section>
+</main>
+
+<footer>Text-Based Emotion Detection • Mini Project</footer>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

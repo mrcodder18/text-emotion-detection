@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<nav>
+    <div class="brand">🧠 EmotionAI</div>
+    <div class="nav-links">
+        <a href="/">Detector</a>
+        <a href="/dashboard">Dashboard</a>
+    </div>
+</nav>
+
+<main class="container">
+    <section class="hero compact">
+        <span class="badge">SQLite Analytics</span>
+        <h1>Prediction Dashboard</h1>
+        <p>View previous emotion predictions and their distribution.</p>
+    </section>
+
+    <section class="stats">
+        <div class="stat card"><span>Total Predictions</span><strong id="total">0</strong></div>
+        <div class="stat card"><span>Most Detected</span><strong id="mostDetected">—</strong></div>
+        <div class="stat card"><span>Unique Emotions</span><strong id="unique">0</strong></div>
+    </section>
+
+    <section class="card">
+        <div class="card-title">
+            <h2>Emotion Distribution</h2>
+            <button class="danger" onclick="clearHistory()">Clear History</button>
+        </div>
+        <div id="distribution"></div>
+    </section>
+
+    <section class="card">
+        <div class="card-title"><h2>Recent Predictions</h2></div>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Text</th><th>Emotion</th><th>Confidence</th><th>Date</th></tr></thead>
+                <tbody id="historyBody"></tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<footer>Text-Based Emotion Detection • Mini Project</footer>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>
