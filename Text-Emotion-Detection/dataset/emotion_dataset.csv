@@ -1,0 +1,246 @@
+text,emotion
+"I am happy about my exam results.",joy
+"She smiled when she heard the good news.",joy
+"We celebrated our team victory tonight.",joy
+"I feel wonderful after completing my project.",joy
+"He was thrilled to receive the award.",joy
+"The birthday party was full of laughter.",joy
+"I am proud of what I achieved today.",joy
+"Getting the internship made me very excited.",joy
+"My friends made my day with their surprise.",joy
+"I am grateful for this beautiful opportunity.",joy
+"The successful presentation made everyone cheerful.",joy
+"I feel lucky and blessed today.",joy
+"We were delighted by the excellent results.",joy
+"Winning the competition filled me with joy.",joy
+"I enjoy spending time with my classmates.",joy
+"The festival was fun and energetic.",joy
+"She was relieved after passing the test.",joy
+"I am optimistic about my future.",joy
+"The achievement made my family proud.",joy
+"That joke made everyone laugh.",joy
+"I am excited for the weekend trip.",joy
+"The good news brought a big smile.",joy
+"He felt satisfied with his work.",joy
+"Our celebration was wonderful.",joy
+"I am cheerful this morning.",joy
+"The successful launch made the team proud.",joy
+"I feel hopeful about tomorrow.",joy
+"It was an amazing experience.",joy
+"She was pleased with the gift.",joy
+"I love seeing my friends happy.",joy
+"I feel sad after hearing the news.",sadness
+"She cried when her friend moved away.",sadness
+"I am lonely at home today.",sadness
+"Losing the match left me disappointed.",sadness
+"He misses his family deeply.",sadness
+"The movie made me cry.",sadness
+"I feel empty after the farewell.",sadness
+"She was heartbroken after the breakup.",sadness
+"The failure made him discouraged.",sadness
+"I regret missing the opportunity.",sadness
+"The bad news brought tears to my eyes.",sadness
+"He felt hopeless after the rejection.",sadness
+"I am unhappy about the result.",sadness
+"The loss was painful for everyone.",sadness
+"She was grieving for her grandfather.",sadness
+"I feel down after my project failed.",sadness
+"The goodbye made everyone sorrowful.",sadness
+"He was disappointed with his marks.",sadness
+"I miss my old college friends.",sadness
+"The broken friendship made her sad.",sadness
+"I feel miserable today.",sadness
+"The rejection hurt my confidence.",sadness
+"She was disheartened by the criticism.",sadness
+"The farewell was emotional and sad.",sadness
+"I feel alone without my best friend.",sadness
+"The failed interview was upsetting.",sadness
+"He cried after losing his wallet.",sadness
+"The memory made me tearful.",sadness
+"I am discouraged by the setback.",sadness
+"The empty room made her feel lonely.",sadness
+"I am angry about the unfair decision.",anger
+"The rude comment made me furious.",anger
+"She was annoyed by the constant noise.",anger
+"He lost his temper during the argument.",anger
+"I hate being treated unfairly.",anger
+"The delay made everyone frustrated.",anger
+"She shouted because she was angry.",anger
+"I am fed up with these repeated mistakes.",anger
+"The injustice made him outraged.",anger
+"He was irritated by the interruption.",anger
+"That dishonest behavior made me mad.",anger
+"I feel furious about the broken promise.",anger
+"She yelled at the driver.",anger
+"The argument made both friends angry.",anger
+"I resent being blamed for the error.",anger
+"The unfair rule frustrated the students.",anger
+"He was offended by the insult.",anger
+"I am sick of this problem.",anger
+"The rude service aggravated the customer.",anger
+"She felt betrayed and angry.",anger
+"His shouting made me irritated.",anger
+"I am angry that nobody listened.",anger
+"The accusation made her furious.",anger
+"They argued about the unfair treatment.",anger
+"I had enough of the constant delays.",anger
+"The broken agreement caused anger.",anger
+"He was outraged by the injustice.",anger
+"The repeated failure was frustrating.",anger
+"She blamed him in anger.",anger
+"I am impatient with this situation.",anger
+"I am scared of the dark.",fear
+"She felt nervous before the interview.",fear
+"He was afraid of the dangerous road.",fear
+"I worry about tomorrow’s exam.",fear
+"The loud noise frightened the child.",fear
+"She was terrified during the storm.",fear
+"I feel anxious about the result.",fear
+"The threat made everyone cautious.",fear
+"He panicked when he saw the fire.",fear
+"I am worried about losing my job.",fear
+"The dark room felt frightening.",fear
+"She was alarmed by the sudden sound.",fear
+"I feel unsafe walking there at night.",fear
+"The emergency created fear.",fear
+"He dreaded the difficult conversation.",fear
+"I am nervous about speaking on stage.",fear
+"The accident made him fearful.",fear
+"She was shaking with fear.",fear
+"I am concerned about the danger.",fear
+"The nightmare left him frightened.",fear
+"He feared that something would go wrong.",fear
+"I cannot stop worrying about the result.",fear
+"The warning made us cautious.",fear
+"She felt helpless during the emergency.",fear
+"I am afraid of failing the test.",fear
+"The unknown situation made him anxious.",fear
+"He was scared when the lights went out.",fear
+"I fear the consequences of this mistake.",fear
+"The dangerous situation caused panic.",fear
+"She was terrified by the sudden crash.",fear
+"Wow, I did not expect this result.",surprise
+"She was surprised by the birthday gift.",surprise
+"The sudden announcement shocked everyone.",surprise
+"I cannot believe we won.",surprise
+"He was astonished by the unexpected news.",surprise
+"What a surprising turn of events.",surprise
+"The result was completely unexpected.",surprise
+"Wow, that was an amazing reveal.",surprise
+"She was stunned by the score.",surprise
+"I never expected to meet him there.",surprise
+"The surprise party caught me off guard.",surprise
+"He was speechless after the announcement.",surprise
+"No way, this really happened.",surprise
+"The sudden change surprised the whole team.",surprise
+"I was amazed by the unexpected performance.",surprise
+"The news came out of nowhere.",surprise
+"She could not believe the gift.",surprise
+"That was an unbelievable result.",surprise
+"The unexpected visitor surprised us.",surprise
+"Wow, I did not see that coming.",surprise
+"The reveal left everyone astonished.",surprise
+"He was startled by the sudden noise.",surprise
+"I am shocked by the final result.",surprise
+"The surprise made her speechless.",surprise
+"I never expected such good news.",surprise
+"The sudden victory amazed the audience.",surprise
+"This outcome is surprisingly different.",surprise
+"The unexpected call shocked me.",surprise
+"What an incredible surprise.",surprise
+"The sudden announcement was astonishing.",surprise
+"I love my family very much.",love
+"She cares deeply about her friends.",love
+"He hugged his mother with affection.",love
+"I adore spending time with my best friend.",love
+"They have a loving relationship.",love
+"She is devoted to her children.",love
+"I cherish every moment with my family.",love
+"My partner supports me with kindness.",love
+"He showed compassion to the stranger.",love
+"I appreciate the people who care for me.",love
+"We share a strong friendship.",love
+"She gave her sister a warm hug.",love
+"I love you with all my heart.",love
+"He is my favorite person.",love
+"Our friendship means the world to me.",love
+"She cares about her classmates.",love
+"I feel close to my parents.",love
+"They are deeply in love.",love
+"I cherish our memories together.",love
+"His kindness made me feel loved.",love
+"She supported me when I needed help.",love
+"I adore my little brother.",love
+"Family love gives me strength.",love
+"They trust and support each other.",love
+"I appreciate my best friends.",love
+"He gave her a tender smile.",love
+"We enjoy being together.",love
+"She is compassionate toward others.",love
+"I love spending time with my family.",love
+"My friends mean so much to me.",love
+"The meeting starts at ten in the morning.",neutral
+"I submitted the project report today.",neutral
+"The class has thirty students.",neutral
+"Please send the document by email.",neutral
+"The train arrives at six o’clock.",neutral
+"I have a computer on my desk.",neutral
+"The college library is open today.",neutral
+"The assignment is due tomorrow.",neutral
+"The system stores the required data.",neutral
+"The weather is cloudy this morning.",neutral
+"I will attend the meeting after lunch.",neutral
+"The report contains five pages.",neutral
+"My phone is on the table.",neutral
+"The bus leaves at eight.",neutral
+"The website displays the information.",neutral
+"I am studying for the examination.",neutral
+"The room has four chairs.",neutral
+"The project uses JavaScript.",neutral
+"The office closes at five.",neutral
+"The document is available online.",neutral
+"The class begins after lunch.",neutral
+"I received a message from the coordinator.",neutral
+"The schedule has been updated.",neutral
+"The software is installed on the computer.",neutral
+"The library opens at nine.",neutral
+"I will submit the assignment tomorrow.",neutral
+"The meeting is in the conference room.",neutral
+"The data is stored in a text file.",neutral
+"The train is expected to arrive soon.",neutral
+"Today is a regular college day.",neutral
+"I am happy about my exam results This sentence expresses joy.",joy
+"She smiled when she heard the good news This sentence expresses joy.",joy
+"We celebrated our team victory tonight This sentence expresses joy.",joy
+"I feel wonderful after completing my project This sentence expresses joy.",joy
+"He was thrilled to receive the award This sentence expresses joy.",joy
+"I feel sad after hearing the news This sentence expresses sadness.",sadness
+"She cried when her friend moved away This sentence expresses sadness.",sadness
+"I am lonely at home today This sentence expresses sadness.",sadness
+"Losing the match left me disappointed This sentence expresses sadness.",sadness
+"He misses his family deeply This sentence expresses sadness.",sadness
+"I am angry about the unfair decision This sentence expresses anger.",anger
+"The rude comment made me furious This sentence expresses anger.",anger
+"She was annoyed by the constant noise This sentence expresses anger.",anger
+"He lost his temper during the argument This sentence expresses anger.",anger
+"I hate being treated unfairly This sentence expresses anger.",anger
+"I am scared of the dark This sentence expresses fear.",fear
+"She felt nervous before the interview This sentence expresses fear.",fear
+"He was afraid of the dangerous road This sentence expresses fear.",fear
+"I worry about tomorrow’s exam This sentence expresses fear.",fear
+"The loud noise frightened the child This sentence expresses fear.",fear
+"Wow, I did not expect this result This sentence expresses surprise.",surprise
+"She was surprised by the birthday gift This sentence expresses surprise.",surprise
+"The sudden announcement shocked everyone This sentence expresses surprise.",surprise
+"I cannot believe we won This sentence expresses surprise.",surprise
+"He was astonished by the unexpected news This sentence expresses surprise.",surprise
+"I love my family very much This sentence expresses love.",love
+"She cares deeply about her friends This sentence expresses love.",love
+"He hugged his mother with affection This sentence expresses love.",love
+"I adore spending time with my best friend This sentence expresses love.",love
+"They have a loving relationship This sentence expresses love.",love
+"The meeting starts at ten in the morning This sentence expresses neutral.",neutral
+"I submitted the project report today This sentence expresses neutral.",neutral
+"The class has thirty students This sentence expresses neutral.",neutral
+"Please send the document by email This sentence expresses neutral.",neutral
+"The train arrives at six o’clock This sentence expresses neutral.",neutral

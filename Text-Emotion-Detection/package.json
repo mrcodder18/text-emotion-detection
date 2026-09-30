@@ -1,0 +1,12 @@
+{
+  "name": "text-emotion-detection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Text-Based Emotion Detection System using lightweight NLP and Netlify Functions.",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

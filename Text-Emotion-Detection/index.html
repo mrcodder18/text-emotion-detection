@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Text-Based Emotion Detection System using lightweight NLP classification.">
+  <title>EmotionSense | Text Emotion Detection</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="/" aria-label="EmotionSense home"><span class="brand-mark">E</span><span>EmotionSense</span></a>
+    <div class="nav-links"><a class="active" href="/">Detector</a><a href="/dashboard">Dashboard</a></div>
+  </nav>
+</header>
+<main>
+  <section class="hero container">
+    <div class="hero-copy">
+      <span class="eyebrow">COLLEGE MINI PROJECT · NLP</span>
+      <h1>Understand the emotion behind <span>every sentence.</span></h1>
+      <p>A lightweight NLP-based emotion classifier that identifies seven emotions using keyword, phrase, frequency and basic negation analysis.</p>
+      <div class="emotion-pills" aria-label="Supported emotions">
+        <span>😊 Joy</span><span>😢 Sadness</span><span>😡 Anger</span><span>😨 Fear</span><span>😲 Surprise</span><span>❤️ Love</span><span>😐 Neutral</span>
+      </div>
+    </div>
+    <div class="hero-card card">
+      <div class="card-heading"><div><span class="section-kicker">TEXT ANALYSIS</span><h2>Detect an emotion</h2></div><span class="status-dot">● Ready</span></div>
+      <label for="emotionText" class="sr-only">Enter text for emotion detection</label>
+      <textarea id="emotionText" maxlength="2000" placeholder="Type a sentence such as: I am very happy because I got selected for my dream job."></textarea>
+      <div class="input-meta"><span id="charCount">0 / 2000</span><button class="link-button" id="clearBtn" type="button">Clear</button></div>
+      <div class="examples"><span>Try an example:</span><button type="button" data-example="I am very happy because I got selected for my dream job.">Joy</button><button type="button" data-example="I am scared about the result tomorrow.">Fear</button><button type="button" data-example="Wow, I never expected this amazing surprise!">Surprise</button><button type="button" data-example="I love spending time with my family.">Love</button></div>
+      <button class="primary-btn" id="detectBtn" type="button"><span class="btn-text">Detect Emotion</span><span class="loader hidden" aria-hidden="true"></span></button>
+      <p id="errorMessage" class="error-message hidden" role="alert"></p>
+      <section id="resultCard" class="result-card hidden" aria-live="polite">
+        <div class="result-top"><div class="emotion-icon" id="resultEmoji">😊</div><div><span class="section-kicker">DETECTED EMOTION</span><h3 id="resultLabel">Joy</h3></div><span class="confidence-value" id="confidenceValue">92%</span></div>
+        <div class="progress-track" aria-label="Confidence"><div id="confidenceBar" class="progress-fill"></div></div>
+        <div class="result-bottom"><span>Confidence score</span><span id="confidenceText">92%</span></div>
+      </section>
+    </div>
+  </section>
+  <section class="info-grid container">
+    <article class="info-card"><div class="info-icon">01</div><h3>Normalize</h3><p>Text is converted to a consistent lowercase form and punctuation is handled before analysis.</p></article>
+    <article class="info-card"><div class="info-icon">02</div><h3>Classify</h3><p>Emotion-specific words and phrases are scored with frequency, phrase weights and basic negation.</p></article>
+    <article class="info-card"><div class="info-icon">03</div><h3>Remember</h3><p>Your recent predictions are stored locally in your browser and visualized on the dashboard.</p></article>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>EmotionSense · Text-Based Emotion Detection System Using NLP</span><span>Built for academic demonstration</span></div></footer>
+<script src="js/app.js"></script>
+</body>
+</html>

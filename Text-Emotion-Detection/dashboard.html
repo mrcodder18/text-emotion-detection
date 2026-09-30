@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Emotion detection prediction dashboard."><title>Dashboard | EmotionSense</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="/"><span class="brand-mark">E</span><span>EmotionSense</span></a><div class="nav-links"><a href="/">Detector</a><a class="active" href="/dashboard">Dashboard</a></div></nav></header>
+<main class="dashboard-page container">
+  <section class="page-heading"><div><span class="eyebrow">ANALYTICS</span><h1>Prediction Dashboard</h1><p>Review your locally stored emotion detection activity.</p></div><button class="danger-btn" id="clearHistoryBtn" type="button">Clear History</button></section>
+  <section class="stats-grid" aria-label="Prediction statistics">
+    <article class="stat-card"><span>Total Predictions</span><strong id="totalPredictions">0</strong><small>Stored in this browser</small></article>
+    <article class="stat-card"><span>Most Detected</span><strong id="mostDetected">—</strong><small id="mostDetectedCount">No predictions yet</small></article>
+    <article class="stat-card"><span>Unique Emotions</span><strong id="uniqueEmotions">0 / 7</strong><small>Emotion categories detected</small></article>
+  </section>
+  <section class="dashboard-grid">
+    <article class="panel card"><div class="panel-heading"><div><span class="section-kicker">DISTRIBUTION</span><h2>Emotion distribution</h2></div></div><div id="distribution" class="distribution"></div></article>
+    <article class="panel card"><div class="panel-heading"><div><span class="section-kicker">ABOUT STORAGE</span><h2>Browser-based history</h2></div></div><p class="panel-text">Predictions are stored with the <code>emotionHistory</code> LocalStorage key. A maximum of 50 records is retained on this device. Clearing browser site data can also remove this history.</p><div class="storage-note">🔒 No prediction history is sent to a database.</div></article>
+  </section>
+  <section class="panel card history-panel"><div class="panel-heading"><div><span class="section-kicker">RECENT ACTIVITY</span><h2>Prediction history</h2></div><span id="historyCount" class="muted">0 records</span></div><div class="table-wrap"><table><thead><tr><th>Text</th><th>Emotion</th><th>Confidence</th><th>Date &amp; time</th></tr></thead><tbody id="historyBody"></tbody></table></div><div id="emptyState" class="empty-state"><div>📊</div><h3>No predictions yet</h3><p>Return to the detector and analyze your first sentence.</p><a class="primary-btn small-btn" href="/">Open Detector</a></div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>EmotionSense · Academic Dashboard</span><span>LocalStorage · Maximum 50 records</span></div></footer>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
